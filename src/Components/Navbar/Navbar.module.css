@@ -14,3 +14,6 @@
     color: white;
     text-decoration: none;
 }
+.item a.active {
+    color: goldenrod;
+}
