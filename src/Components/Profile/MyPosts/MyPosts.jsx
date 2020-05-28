@@ -5,12 +5,10 @@ import Post from "./Post/Post";
 const MyPosts = () => {
     return (
         <div>My posts
-            <div>New post</div>
-           <Post/>
-           <Post/>
-           <Post/>
-           <Post/>
-           <Post/>
+           <div>New post</div>
+           <Post message = 'Привет, как дела ?' likesCount='0'/>
+           <Post message = 'У меня всё ок!' likesCount='23'/>
+
         </div>
 
     );
